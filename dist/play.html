@@ -7,20 +7,41 @@
     <link rel="icon" href="favicon_io/favicon.ico">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/play.css">
         <title>MWatched</title>
 </head>
 <body>
     <header class="header" id="header">
         <h1 class="header-text" id="header-text"><a href="index.html" class="headerText-content">MWATCHED</a></h1>
     </header>
-    <div class="container">
-        <div class="showcase">
-       
-        </div>
-    </div>
+ <div class="display">
+          <div class="showcase-top">
+                <div class="top-bg"></div>
+                <div class="details">
+                    <div class="name"></div>
+                    <div class="release"></div>
+                </div>
+            </div>
+            <div class="showcase-mid">
+                <div class="cont">
+                    <div class="poster-image"></div>
+                    <div class="overview"></div>
+                </div>
+                <div class="homepage"></div>
+            </div>
+            <div class="showcase-bottom">
+               <div class="buttons">
+                    <div class="back"><a href="index.html">Back To Home</a></div>
+                <div class="download"></div>
+               </div>
+                
+            </div>
+ </div>
     <footer class="footer" id="footer">
-        <div class="col col1">
+        <div class="col col1"> 
             <ul class="links">
                 <li class="link"><a href="#">HOME</a></li>
                 <li class="link"><a href="#">ABOUT</a></li>
@@ -42,7 +63,7 @@
             </ul>
         </div>
     </footer>
-          <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+    <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
 
   <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
   <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
@@ -53,6 +74,6 @@
   <!-- Add Firebase products that you want to use -->
   <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-auth.js"></script>
   <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-firestore.js"></script>
-<script src="JS/app.js"></script>
+<script src="JS/play.js"></script>
 </body>
 </html>

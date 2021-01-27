@@ -1,0 +1,139 @@
+.headerText-content{
+    text-decoration: none;
+    color: #000;
+}
+.showcase{
+    display: flex;
+    margin-top: 90px;
+    justify-content: space-around;
+    background-color: #F2E7E7;
+    margin-left: 19rem;
+    margin-right: 19rem;
+    margin-bottom: 100px;
+    border-radius: 8px;
+    text-align: center;
+    font-family: 'Raleway';
+   
+}
+.title{
+    padding-bottom: 10px;
+}
+h2{
+    text-align: center;
+}
+.upload{
+    width: 70%;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+p{
+    text-align: left;
+}
+.movie-description{
+    
+    text-align: center;
+}
+
+.movie-link{
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 28px;
+    margin-bottom: 16px;
+    font-family: 'Raleway';
+    outline: transparent;
+    margin-left: 6px;
+    width: 95%;
+    border-radius: 10px;
+    border: 1px #D4D3D2 solid;
+    margin-bottom: 30px;
+}
+.movie-id{
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 28px;
+    margin-bottom: 16px;
+    font-family: 'Raleway';
+    outline: transparent;
+    margin-left: 6px;
+    width: 95%;
+    border-radius: 10px;
+    border: 1px #D4D3D2 solid;
+    margin-bottom: 30px;
+}
+.search-text{
+    text-align: left;
+    font-weight: 400;
+    margin-left: 6px;
+
+}
+.movie-search{
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: solid #000 2px;
+    width: 95%;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-top: 10px;
+    outline: transparent;
+    font-size: 20px;
+    font-family: 'Raleway';
+}
+.movie-display{
+    display: flex;
+    justify-content: space-around;
+    border: 4px solid black;
+    margin: 10px;
+    font-size: larger;
+    cursor: pointer;
+    
+}
+.movie-name{
+    font-size: 28px;
+    text-align: center;
+    padding-top: 50px;
+}
+.poster{
+    object-fit: contain;
+    height: 20vh;
+}
+.submit-button{
+    background-color: #4285F4;
+    font-size: 30px;
+    font-family: 'Raleway';
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    color: white;
+    outline: transparent;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+/*Mobile Design*/
+@media (max-width: 768px){
+    .showcase{
+        margin: 0px;
+    }
+    .title{
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    p{
+        font-size: small;
+    }
+    .movie-link,.movie-id{
+        font-size: small;
+        margin-right: 30px;
+        margin-left: 10px;
+        width: 90%;
+    }
+    .submit-button{
+        font-size: 16px;
+    }
+    
+}

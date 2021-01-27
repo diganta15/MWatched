@@ -1,0 +1,111 @@
+body{
+    background-color: #212123;
+  
+}
+.display{
+    background-color: #1F1F1F;
+    margin-left: 360px;
+    margin-right: 360px;
+}
+.showcase-top{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+
+}
+.top-bg {
+   width: 100%;
+   margin: 30px;
+   
+}
+.top-bg img{
+    width: 90%;
+    margin-left: 20px;
+    /* box-shadow: 10px 5px 5px #000; */
+     box-shadow: inset 0px 0px 30px 30px rgba(0, 0, 0, 0.9);
+}
+     
+.cont{
+    display: flex;
+    padding-left: 80px;
+    padding-top: 20px;
+    background-color: #0D1628;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+    color: #fff;
+    background-color: #533EDA;
+     border-top-right-radius: 30px;
+     border-top-left-radius: 30px;
+}
+
+.poster-image img{
+    height: 35vh;
+    border-radius: 10px;
+}
+.overview{
+    padding: 30px;
+    color: #fff;
+    font-family: 'Montserrat',sans-serif;
+    line-height: 2em;
+}
+.showcase-mid{
+    background-color: #533EDA;
+
+}
+.homepage{
+    text-align: center;
+    background-color: #0D1628;
+}
+.homepage a{
+    color: #fff;
+    font-size: 2em;
+    text-decoration: none;
+    font-family: 'Raleway';
+}
+.showcase-bottom{
+    background-color: #0D1628;
+}
+.buttons{
+    background-color: #B21E24;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.buttons > div{
+    background-color: #000;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Montserrat';
+}
+.buttons> div> a{
+    text-decoration: none;
+    color: #fff;
+}
+
+@media (max-width:768px) {
+    .display{
+        margin: 0px;
+    }
+    .top-bg{
+        margin: 0px;
+    }
+    .cont{
+        padding-left: 20px;
+        flex-direction: column;
+    }
+    .poster-image {
+        padding-left: 30px;
+    }
+    .buttons>div{
+        padding: 10px;
+    }
+    
+}

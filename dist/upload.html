@@ -8,15 +8,30 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/upload.css">
         <title>MWatched</title>
 </head>
 <body>
     <header class="header" id="header">
         <h1 class="header-text" id="header-text"><a href="index.html" class="headerText-content">MWATCHED</a></h1>
     </header>
-    <div class="container">
-        <div class="showcase">
-       
+    <div class="showcase">
+        <div class="upload">
+            <h2 class="title">Upload</h2>
+            <p>*Enter the link and then select the movie from below*</p>
+            <form action="" class="upload-form">
+                <input type="text" class="movie-link" placeholder="Link">
+                <div class="search">
+                    <h2 class="search-text">Search</h2>
+                    <input type="text" class="movie-search" placeholder="Movie name">
+                    <ul class="movie-list">
+                        
+                    </ul>
+                </div>
+                <input type="text" class="movie-id" placeholder="Movie ID">
+                <br>
+                <button class="submit-button">Submit</button>
+            </form>
         </div>
     </div>
     <footer class="footer" id="footer">
@@ -42,7 +57,7 @@
             </ul>
         </div>
     </footer>
-          <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+      <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
 
   <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
   <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
@@ -53,6 +68,7 @@
   <!-- Add Firebase products that you want to use -->
   <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-auth.js"></script>
   <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-firestore.js"></script>
-<script src="JS/app.js"></script>
+
+<script src="JS/upload.js"></script>
 </body>
 </html>
