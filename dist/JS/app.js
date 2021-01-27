@@ -46,7 +46,7 @@ function createHTML(){
         for(var i=0; i<length; i++)
         {
            
-            output += `<li class="movie-grid" id="${i}" value="${arr[i]}" onclick="dataId = ${arr[i]}; console.log(dataId); document.cookie = '${arr[i]}'; window.open('${x}play.html','_self');" ></li>`;
+            output += `<li class="movie-grid" id="${i}" value="${arr[i]}" onclick="dataId = ${arr[i]}; console.log(dataId); document.cookie = '${arr[i]}'; window.open('https://m-watched.web.app/play.html','_self');" ></li>`;
 
         }
         console.log(output);
